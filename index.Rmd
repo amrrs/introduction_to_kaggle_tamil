@@ -1,9 +1,9 @@
 --- 
-title: "கேக்கள் - ஒரு குட்டி அறிமுகம் - தமிழில்ம் "
+title: "கேக்கள் - ஒரு குட்டி அறிமுகம் - தமிழில்  "
 author: "அப்துல் மஜீத் ராஜா "
-date: "`r Sys.Date()`"
+#date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
-output: bookdown::tufte_html_book
+output: bookdown::html_book
 always_allow_html: yes #amrrs
 documentclass: book
 bibliography: [book.bib, packages.bib]
