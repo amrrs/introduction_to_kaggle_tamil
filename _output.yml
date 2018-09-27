@@ -68,8 +68,9 @@ bibliography: ["references.bib"]
 link-citations: yes
 
 bookdown::html_book:
-  toc: yes
-  css: [toc.css,'https://use.fontawesome.com/releases/v5.3.1/css/all.css']
-  theme: flatly
+    toc: yes
   #font-import: https://fonts.googleapis.com/css?family=Roboto|Open+Sans
  # font-family: 'Roboto'
+
+    css: [toc.css,'https://use.fontawesome.com/releases/v5.3.1/css/all.css']
+    theme: flatly
