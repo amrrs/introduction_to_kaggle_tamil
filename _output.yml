@@ -1,18 +1,73 @@
 bookdown::gitbook:
-  css: style.css
-  config:
-    toc:
-      before: |
-        <li><a href="./">A Minimal Book Example</a></li>
-      after: |
-        <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
-    edit: null
-    #download: ["pdf", "epub"]
-    download: null
-#bookdown::pdf_book:
-#  includes:
-#    in_header: preamble.tex
-#  latex_engine: xelatex
-#  citation_package: natbib
-#  keep_tex: yes
-#bookdown::epub_book: default
+    css: [css/book.css, 'https://use.fontawesome.com/releases/v5.3.1/css/all.css']
+    font-import: https://fonts.googleapis.com/css?family=Roboto|Open+Sans
+    font-family: 'Roboto'
+    number_sections: false
+    split_by: rmd
+    config:
+      df_print: kable
+      highlight: pygments
+      edit : null
+      download: null
+      search: yes
+      sharing:
+        facebook: no
+        twitter: no
+        google: no
+        weibo: no
+        instapper: no
+        vk: no
+        all: ['twitter', 'facebook', 'google', 'weibo', 'instapaper']
+      toc:
+        depth: 2
+        collapse: section
+        scroll_highlight: yes
+        before: |
+          <li class='before'><a href="./">Introduction to R Markdown</a></li>
+        after: |
+         <li class='after'">
+            <a href="https://m-clark.github.io/">
+               <img src="img/mc_logo.png" style="width:25%; padding:0px 0; display:block; margin: 0 auto;" alt="MC logo">
+            </a>
+         </li>
+         <li class='after'">
+            <div style='text-align:center'>
+               <a href="https://github.com/m-clark/">
+                  <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+               </a>
+            </div>
+         </li>
+         <li class='after'">
+            <div style='text-align:center'>
+               <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <i class="fab fa-creative-commons fa-lg"></i>
+                  <i class="fab fa-creative-commons-by fa-lg"></i>
+                  <i class="fab fa-creative-commons-sa fa-lg"></i>
+               </a>
+            </div>
+         </li>
+#      edit:
+#        link: https://github.com/m-clark/workshops/
+#      highlight: pygments
+
+# bookdown::pdf_book:
+#   includes:
+#     in_header: preamble.tex
+#   latex_engine: xelatex
+#   citation_package: natbib
+# bookdown::epub_book: default
+bookdown::tufte_html_book:
+  toc: yes
+  css: toc.css
+  toc_depth: 1
+  split_by: chapter
+  fig_caption: true
+tufte::tufte_html:
+  fig_caption: true
+bibliography: ["references.bib"]
+link-citations: yes
+
+bookdown::html_book:
+  toc: yes
+  css: toc.css
+  theme: flatly
