@@ -1,5 +1,5 @@
 --- 
-title: "கேக்கள் - ஒரு குட்டி அறிமுகம் - தமிழில்  "
+title: "கேகல்  - ஒரு குட்டி அறிமுகம் - தமிழில் "
 author: "அப்துல் மஜீத் ராஜா "
 #date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
@@ -16,7 +16,6 @@ description: "This is a minimal example of using the bookdown package to write a
 # Prerequisites
 
 ![Kaggle Image](http://scd.en.rfi.fr/sites/english.filesrfi/imagecache/rfi_16x9_1024_578/sites/images.rfi.fr/files/aef_image/kaggle.jpg)
-
 
          
 This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports, e.g., a math equation $a^2 + b^2 = c^2$.
