@@ -9,7 +9,7 @@ documentclass: book
 bibliography: [packages.bib]
 biblio-style: apalike
 link-citations: yes
-github-repo: amrrs/bookdown-demo
+github-repo: amrrs/introduction_to_kaggle_tamil
 description: "இந்த புத்தகம் தமிழ் மொழியில் பயிலும் மாணவர்கள் நண்பர்களுக்கு கேகள்  பற்றிய ஒரு சிறிய அறிமுகம்"
 ---
 
