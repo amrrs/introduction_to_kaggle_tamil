@@ -9,33 +9,21 @@ documentclass: book
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
-github-repo: rstudio/bookdown-demo
-description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook."
+github-repo: amrrs/bookdown-demo
+description: "இந்த புத்தகம் தமிழ் மொழியில் பயிலும் மாணவர்கள் நண்பர்களுக்கு கேகல் பற்றிய ஒரு சிறிய அறிமுகம்."
 ---
 
-# Prerequisites
+# அறிமுகம்
 
 ![Kaggle Image](http://scd.en.rfi.fr/sites/english.filesrfi/imagecache/rfi_16x9_1024_578/sites/images.rfi.fr/files/aef_image/kaggle.jpg)
 
-         
-This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports, e.g., a math equation $a^2 + b^2 = c^2$.
-
-The **bookdown** package can be installed from CRAN or Github:
-
-```{r eval=FALSE}
-install.packages("bookdown")
-# or the development version
-# devtools::install_github("rstudio/bookdown")
-```
+இந்த புத்தகம் தமிழ் மொழியில் பயிலும் மாணவர்கள் நண்பர்களுக்கு கேகல் பற்றிய ஒரு சிறிய அறிமுகம்
 
 
-Remember each Rmd file contains one and only one chapter, and a chapter is defined by the first-level heading `#`.
+# எழுத்தாளர் பற்றி 
 
-To compile this example to PDF, you need XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): <https://yihui.name/tinytex/>.
 
-```{r include=FALSE}
-# automatically create a bib database for R packages
-knitr::write_bib(c(
-  .packages(), 'bookdown', 'knitr', 'rmarkdown'
-), 'packages.bib')
-```
+அப்துல் மஜீத் ராஜா, ஒரு டேட்டா விஞ்ஞானியாக  தனது பல ஆண்டுகள் அனுபவதினால்  பல நிறுவங்களுக்கு அவர்களிடம் உள்ள டேட்டாவைக் கொண்டு வியாபார முடிவுகள் எடுக்க உதவிவருகிறார். தனது மீதி நேரத்தில் புது  கேகல் கெர்னல் உருவாக்கத்தைப் பழக்ககமாக கொண்டுள்ளார் .
+
+
+கிட்ஹப் -[ https://www.github.com/amrrs](https://www.github.com/amrrs)
