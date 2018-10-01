@@ -1,3 +1,9 @@
-This is a minimal example of a book based on R Markdown and **bookdown** (https://github.com/rstudio/bookdown). Please see the page "[Get Started](https://bookdown.org/yihui/bookdown/get-started.html)" at https://bookdown.org/yihui/bookdown/ for how to compile this example into HTML. You may generate a copy of the book in `bookdown::pdf_book` format by calling `bookdown::render_book('index.Rmd', 'bookdown::pdf_book')`. More detailed instructions are available here https://bookdown.org/yihui/bookdown/build-the-book.html.
+This document provides you a set of instructions to download this book source and modify it yourself.
 
-You can find the preview of this example at https://bookdown.org/yihui/bookdown-demo/.
+* Install `bookdown` package and make sure you have essential packages to `knit` your `Rmarkdown` from your Rstudio
+
+* Clone/Download this Repo
+
+* Open the [tamil_book.Rproj](tamil_book.Rproj) file and start editing
+
+* Happy Bookdowning!

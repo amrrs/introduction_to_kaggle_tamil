@@ -1,3 +1,3 @@
 [
-["01-intro.html", "அறிமுகம் சரித்திரம்", " அறிமுகம் சரித்திரம் கேகள் நிறுவனம் (kaggle.com) அந்தோணி கோல்ட்ப்ளூம் அவர்களால் 2010 ஏப்ரல் மாதத்தில் துவங்கப்பட்டது. 2017 மார்ச்சில் கூகிள் நிறுவனம் கேகள் நிறுவனத்தை வாங்கியது. Figures and tables with captions will be placed in figure and table environments, respectively. You can write citations, too. For example, we are using the bookdown package (Xie 2018) in this sample book, which was built on top of R Markdown and knitr (Xie 2015). References "]
+["01-intro.html", "அறிமுகம் சரித்திரம் என்ன?", " அறிமுகம் சரித்திரம் கேகள் நிறுவனம் (kaggle.com) அந்தோணி கோல்ட்ப்ளூம் அவர்களால் 2010 ஏப்ரல் மாதத்தில் துவங்கப்பட்டது.(Kaggle Wikipedia Page 2018) 2017 மார்ச்சில் கூகிள் நிறுவனம் கேகள் நிறுவனத்தை வாங்கியது. என்ன? கேகள் என்றால் என்ன என்று விளக்கும் அதிகாரப்பூர்வ காணொளி (Kaggle Official Website 2018) knitr::include_url(“https://www.kaggle.com/”) நூலடைவு "]
 ]
