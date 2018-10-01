@@ -3,15 +3,16 @@
 ## சரித்திரம் {#history}
 
 
-கேகள் நிறுவனம் (kaggle.com) அந்தோணி கோல்ட்ப்ளூம் அவர்களால் 2010 ஏப்ரல் மாதத்தில் துவங்கப்பட்டது. 
+கேகள் நிறுவனம் (kaggle.com) அந்தோணி கோல்ட்ப்ளூம் அவர்களால் 2010 ஏப்ரல் மாதத்தில் துவங்கப்பட்டது.[@KaggleWiki]
 
 ![](https://www.kaggle.com/static/images/site-logo.png)
 
 2017 மார்ச்சில் கூகிள் நிறுவனம் கேகள் நிறுவனத்தை வாங்கியது.
 
+## என்ன? {#what}
+
+
+கேகள் என்றால் என்ன என்று விளக்கும் அதிகாரப்பூர்வ காணொளி [@Kaggle.com]
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AoRSIdLpFqU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-Figures and tables with captions will be placed in `figure` and `table` environments, respectively.
-
-You can write citations, too. For example, we are using the **bookdown** package [@R-bookdown] in this sample book, which was built on top of R Markdown and **knitr** [@xie2015].
